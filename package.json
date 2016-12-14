@@ -1,0 +1,53 @@
+{
+  "name": "angular-library-starter",
+  "version": "0.1.0",
+  "scripts": {
+    "lint": "tslint src/**/*.ts",
+    "test": "tsc && karma start",
+    "postinstall": "typings install",
+    "prepublish": "tsc",
+    "tsc": "tsc",
+    "typings": "typings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denissb/angular-library-starter.git"
+  },
+  "author": {
+    "name": "denissb",
+    "email": "spawnenius@gmail.com"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "starter",
+    "library",
+    "shared",
+    "module",
+    "generator-angular2-library"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denissb/angular-library-starter/issues"
+  },
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@angular/core": "^2.3.0",
+    "@angular/common": "^2.3.0",
+    "@types/es6-shim": "^0.31.32",
+    "@types/jasmine": "^2.5.35",
+    "@types/protractor": "^1.5.20",
+    "@types/selenium-webdriver": "2.44.*",
+    "codelyzer": "^0.0.28",
+    "rxjs": "5.0.0-rc.4",
+    "tslint": "^3.9.0",
+    "typescript": "~2.0.9",
+    "zone.js": "~0.7.2"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
