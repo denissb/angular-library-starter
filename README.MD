@@ -1,11 +1,13 @@
-# px-angular-loader
+# Angular library starter
+
+This starter is based on [generator-angular2-library](https://www.npmjs.com/package/generator-angular2-library) for Yoman. If you want to use this simply check out the project and replace all occurrences of `angular-library-starter` with the name of your library.
 
 ## Installation
 
 To install this library, run:
 
 ```bash
-$ npm install px-angular-loader --save
+$ npm install angular-library-starter --save
 ```
 
 ## Consuming your library
@@ -13,7 +15,7 @@ $ npm install px-angular-loader --save
 Once you have published your library to npm, you can import your library in any Angular application by running:
 
 ```bash
-$ npm install px-angular-loader
+$ npm install angular-library-starter
 ```
 
 and then from your Angular `AppModule`:
