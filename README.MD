@@ -1,10 +1,10 @@
 # Angular library starter
 
-This starter is based on [generator-angular2-library](https://www.npmjs.com/package/generator-angular2-library) for Yoman. If you want to use this simply check out the project and replace all occurrences of `angular-library-starter` with the name of your library.
+This starter is based on [generator-angular2-library](https://www.npmjs.com/package/generator-angular2-library) for Yoman. If you want to use this simply check out the project and replace all occurrences of `angular-library-starter` with the name of your library. **This project is not published to npm as it is intended as a starter**.
 
-## Installation
+## Installation (after publishing to npm)
 
-To install this library, run:
+To install this library after publishing it to npm, run:
 
 ```bash
 $ npm install angular-library-starter --save
