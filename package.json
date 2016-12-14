@@ -5,8 +5,7 @@
     "lint": "tslint src/**/*.ts",
     "prepublish": "tslint src/**/*.ts && tsc",
     "watch": "tsc -w",
-    "tsc": "tsc",
-    "typings": "typings"
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
