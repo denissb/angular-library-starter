@@ -60,19 +60,25 @@ Once your library is imported, you can use its components, directives and pipes 
 To generate all `*.js`, `*.js.map` and `*.d.ts` files:
 
 ```bash
-$ npm run tsc
+$ npm run build
+```
+
+To watch for changes and then generate `*.js`, `*.js.map` and `*.d.ts` files:
+
+```bash
+$ npm run watch
+```
+
+To generate a UMD bundle:
+
+```bash
+$ npm run bundle
 ```
 
 To lint all `*.ts` files:
 
 ```bash
 $ npm run lint
-```
-
-To watch for changes and then generate all `*.js`, `*.js.map` and `*.d.ts` files:
-
-```bash
-$ npm run watch
 ```
 
 ## Testing
