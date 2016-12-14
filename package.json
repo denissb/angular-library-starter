@@ -4,7 +4,7 @@
   "scripts": {
     "lint": "tslint src/**/*.ts",
     "prepublish": "npm run build",
-    "build": "tsc && npm run build",
+    "build": "tsc && npm run bundle",
     "bundle": "webpack && cp ./dist/bundles/angular-library-starter.umd.js ./dist/bundles/index.js",
     "watch": "tsc -w",
     "tsc": "tsc"
