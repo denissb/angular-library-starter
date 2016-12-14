@@ -69,6 +69,12 @@ To lint all `*.ts` files:
 $ npm run lint
 ```
 
+To watch for changes and then generate all `*.js`, `*.js.map` and `*.d.ts` files:
+
+```bash
+$ npm run watch
+```
+
 ## Testing
 
 TBD
