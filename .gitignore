@@ -14,6 +14,9 @@ npm-debug.log
 .idea/*
 *.iml
 
+# Config
+!webpack.config.js
+
 # Windows
 Thumbs.db
 Desktop.ini
