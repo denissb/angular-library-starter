@@ -1,9 +1,11 @@
 # Node
 node_modules/*
 npm-debug.log
+.npmrc
 
 # Typescript
 *.ts
+!*.d.ts
 
 # Webpack
 webpack.config.js

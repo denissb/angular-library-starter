@@ -37,7 +37,7 @@ import { SampleModule } from 'angular-library-starter' // or name of your librar
     BrowserModule,
 
     // Specify your library as an import
-    LibraryModule
+    SampleModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -52,7 +52,7 @@ Once your library is imported, you can use its components, directives and pipes 
 <h1>
   {{title}}
 </h1>
-<sampleComponent></sampleComponent>
+<sample-component></sample-component>
 ```
 
 ## Development

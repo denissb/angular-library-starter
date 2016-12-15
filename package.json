@@ -1,11 +1,11 @@
 {
   "name": "angular-library-starter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "lint": "tslint src/**/*.ts",
     "prepublish": "npm run build",
     "build": "tsc && npm run bundle",
-    "bundle": "webpack && cp ./dist/bundles/angular-library-starter.umd.js ./dist/bundles/index.js",
+    "bundle": "webpack && cp ./bundles/angular-library-starter.umd.js ./bundles/index.js",
     "watch": "tsc -w",
     "tsc": "tsc"
   },
