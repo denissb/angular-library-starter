@@ -2,11 +2,11 @@
 node_modules/*
 npm-debug.log
 
-# DO NOT IGNORE TYPESCRIPT FILES FOR NPM
-# TypeScript
-# *.js
-# *.map
-# *.d.ts
+# Typescript
+*.ts
+
+# Webpack
+webpack.config.js
 
 # JetBrains
 .idea
