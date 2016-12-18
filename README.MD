@@ -83,7 +83,13 @@ $ npm run lint
 
 ## Testing
 
-TBD
+To run tests:
+
+```bash
+$ npm run test
+```
+**Warning: remapCoverageReporter currently does not work, seems like a compatability issue - so no coverage reports**
+
 
 ## License
 
